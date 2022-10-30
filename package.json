@@ -1,0 +1,23 @@
+{
+  "name": "inwoin_frontend_test_new",
+  "version": "1.0.0",
+  "description": "BLU TOURS AND TRAVELS WEBSITE",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UtkarshRaj0602/Blu-Static-Tours-and-Travels-Website.git"
+  },
+  "keywords": [
+    "BLU"
+  ],
+  "author": "Utkarsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UtkarshRaj0602/Blu-Static-Tours-and-Travels-Website/issues"
+  },
+  "homepage": "https://github.com/UtkarshRaj0602/Blu-Static-Tours-and-Travels-Website#readme"
+}
