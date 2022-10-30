@@ -1,0 +1,35 @@
+.destination_service {
+    padding: 8rem 0px;
+    display: grid;
+    gap: 2rem;
+    width: 85%;
+    height: 100%;
+    margin-top: -15%;
+}
+
+.heading {
+    margin-bottom: 5%;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+}
+
+.card-img-top {
+    width: 110%;
+    margin-left: -5%;
+    height: 100%;
+}
+
+/* MEDIA QUIRES */
+
+@media (max-width: 2560px) and (min-width: 2400px){
+    .destination_service {
+        padding: 8rem 0px;
+        display: grid;
+        gap: 2rem;
+        width: 85%;
+        height: 100%;
+        margin-top: -45%;
+    }
+}

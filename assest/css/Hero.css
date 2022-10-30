@@ -1,0 +1,352 @@
+.background {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 40px;
+}
+
+.Background_video {
+    width: 100%;
+    filter: brightness(60%);
+    border-radius: 40px;
+    z-index: -2;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    /* position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    z-index: 3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.content_sub_section {
+    position: absolute;
+    transform: translate(0%,-85%);
+}
+
+.title {
+    color: white;
+}
+
+.content_heading {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.content_para {
+    text-align: center;
+    padding: 0 15vw;
+    margin: 4rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+.search {
+    display: flex;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 16px;
+}
+
+.search_content {
+    padding: 0.5rem 1.5rem;
+    border: 0.10px solid #333;
+    border-radius: 4px;
+}
+
+.button {
+    padding: 10px 0px;
+}
+
+.search__btn {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: #1a68b1;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.search__btn:hover {
+    background: #043a6c;
+    transform: scale(1.05);
+    transition: 1.5s;
+} 
+
+.search_content_heading {
+    color: #333;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 5px 0px;
+}
+
+.input {
+    border-radius: 15px;
+    border-color: #333;
+    width: 100%;
+    text-align: center;
+    color: #333;
+}
+
+.input::placeholder{
+    color: #333;
+    font-size: 14px;
+}
+
+.Hamburger__Menu {
+    margin-right: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 374.98px) { 
+    .content_sub_section {
+        position: absolute;
+        transform: translate(0%, 30%);
+    }    
+
+    .content_para {
+        padding: 0 0vw;
+        font-size: 13px;
+        color: #333;
+        margin-top: 30%;
+    }
+
+    .content_heading {
+        font-size: 16px;
+        margin-top: 13%;
+    }
+
+    .search {
+        width: 100%;
+        margin-top: -10%;
+    }
+
+    .search_content_heading {
+        color: #333;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 5px 0px;
+    }
+
+    .input::placeholder{
+        color: #333;
+        font-size: 14px;
+    }
+
+    .search__btn {
+        padding: 15px 50px;
+    }
+}
+
+@media (max-width: 424.98px) and (min-width: 375px) { 
+    .content_sub_section {
+        position: absolute;
+        transform: translate(0%, 30%);
+    }    
+
+    .content_para {
+        padding: 0 0vw;
+        font-size: 13px;
+        color: #333;
+        margin-top: 30%;
+    }
+
+    .content_heading {
+        font-size: 20px;
+        margin-top: 8%;
+    }
+
+    .search {
+        width: 90%;
+    }
+
+    .search_content_heading {
+        color: #333;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 5px 0px;
+    }
+
+    .input::placeholder{
+        color: #333;
+        font-size: 14px;
+    }
+
+    .search__btn {
+        padding: 15px 50px;
+    }
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) and (min-width: 425px) { 
+    .content_sub_section {
+        position: absolute;
+        transform: translate(0%, 30%);
+    }    
+
+    .content_para {
+        padding: 0 0vw;
+        font-size: 14px;
+        color: #333;
+        margin-top: 30%;
+    }
+
+    .content_heading {
+        font-size: 23px;
+        margin-top: 2%;
+    }
+
+    .search {
+        width: 80%;
+    }
+
+    .search_content_heading {
+        color: #333;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 5px 0px;
+    }
+
+    .input::placeholder{
+        color: #333;
+        font-size: 14px;
+    }
+
+    .search__btn {
+        padding: 15px 50px;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) and (min-width: 576px) { 
+    .content_sub_section {
+        position: absolute;
+        transform: translate(0%, 2%);
+    }    
+
+    .content_para {
+        padding: 0 5vw;
+        font-size: 14px;
+    }
+
+    .content_heading {
+        font-size: 30px;
+    }
+
+    .search {
+        width: 100%;
+    }
+
+    .search_content_heading {
+        color: #333;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 5px 0px;
+    }
+
+    .input::placeholder{
+        color: #333;
+        font-size: 14px;
+    }
+
+    .search__btn {
+        padding: 15px 50px;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) and (min-width: 768px) { 
+    .content_sub_section {
+        position: absolute;
+        transform: translate(0%, -6%);
+    }    
+
+    .content_para {
+        padding: 0 10vw;
+        font-size: 14px;
+    }
+
+    .content_heading {
+        font-size: 36px;
+    }
+
+    .search {
+        width: 80%;
+    }
+
+    .search_content_heading {
+        color: #333;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 5px 0px;
+    }
+
+    .input::placeholder{
+        color: #333;
+        font-size: 14px;
+    }
+
+    .search__btn {
+        padding: 15px 50px;
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) and (min-width: 992px) { 
+    .content_sub_section {
+        position: absolute;
+        transform: translate(0%,-65%);
+    }    
+
+    .content_para {
+        padding: 0 20vw;
+        font-size: 14px;
+    }
+
+    .content_heading {
+        font-size: 36px;
+    }
+
+    .search_content_heading {
+        color: #333;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 5px 0px;
+    }
+
+    .input::placeholder{
+        color: #333;
+        font-size: 14px;
+    }
+    
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) and (min-width: 1200px) { 
+    .content_sub_section {
+        position: absolute;
+        transform: translate(0%,-80%);
+    }    
+
+    .content_para {
+        padding: 0 10vw;
+        font-size: 15px;
+    }
+
+    .content_heading {
+        font-size: 46px;
+    }
+}

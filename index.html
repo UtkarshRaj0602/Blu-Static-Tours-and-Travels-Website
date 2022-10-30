@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="BLU" content="Tours and Travels"/>
+<!-- GOOGLE FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+<!-- BOOTSTRAP -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="./assest/css/style.css">
+<!-- FAVICON -->
+<link rel="icon" type="image/x-icon" href="./assest/img/mountains.png">
+<!-- JAVASCRIPT -->
+<script defer src="./assest/js/script.js"></script>
+<title>BLU Tours and Travels</title>
+</head>
+<body>
+    <!-- Body Wrapper -->
+
+    <section class="wrapper">
+        
+        <!-- Navbar -->
+
+        <div class="headerANDnavbar">
+
+
+
+            <!-- NAVBAR -->
+
+            <nav class="nav navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="logo_container">
+                        <img class="logo img-fluid nav__logo" id="logo" src="./assest/img/mountains.png" alt="Logo" href="#"/>
+                        <span class="brand_name">BLU</span>
+                    </div>
+                    <button class="navbar-toggler btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"><img class="Hamburger__Menu img-fluid" src="./assest/img/menu.png"></span>
+                    </button>
+
+                    <!-- Offcanvas -->
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                      <div class="offcanvas-header">
+                        <img src="./assest/img/cancel.png" class="close__btn" alt="Close button" type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                      </div>
+                      <div class="offcanvas-body">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                              <li class="nav-item">
+                                <a class="nav-link active Home" aria-current="page" href="#home">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#services">Services</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#destinations">Destinations</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#testimonials">Testimonials</a>
+                              </li>
+                          </ul>
+                          <button class="login_btn">LogIn</button>
+                      </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- HERO Section -->
+
+            <div class="Hero_section" id="hero">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xxl-12 col-md-12 col-12">
+                            <div class="background">
+                                <video autoplay loop muted class="Background_video">
+                                    <source src="./assest/img/Untitled.mp4" type="video/mp4"> 
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content -->
+
+                    <div class="content mx-auto">
+                        <div class="content_sub_section">
+                            <div class="title">
+                                <div class="row">
+                                    <div class="col-xxl-12 col-md-12 col-12">
+                                        <h1 class="content_heading">Explore the Beauty of Nature</h1>
+                                        <p class="content_para">
+                                            Traveling ins't always about seeing new things and visiting places. It's also about finding your inner peace.<br> 
+                                            With <span class="brand_name"> BLU </span> find your inner peace.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search mx-auto">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="search_content col-xxl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                                            <label class="search_content_heading" htmlFor="">Destination</label>
+                                            <input type="text" placeholder="Search your Destination" class="input">
+                                        </div>
+                                        <div class="search_content col-xxl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                                            <label class="search_content_heading" htmlFor="">Check-In</label>
+                                            <input type="date" class="input">
+                                        </div>
+                                        <div class="search_content col-xxl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                                            <label class="search_content_heading" htmlFor="">Check-Out</label>
+                                            <input type="date" class="input">
+                                        </div>
+                                        <div class="search_content col-xxl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                                            <div class="button">
+                                                <button class="search__btn">Explore Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services Section -->
+
+            <div class="Services_section mx-auto">
+                <div class="container">
+                    <div class="row row-cols-4">
+                        <div class="card col-xxl-3 col-lg-3 col-md-6 col-12">
+                            <div class="services">
+                                <div class="icon">
+                                    <img src="./assest/img/shopping-cart.png" alt="cart" class="service_icon">
+                                </div>
+                                <h3 class="services_heading">Get Best Deals</h3>
+                                <p class="services_para">Travel today and pay in installments. Get great rewards on transactions with credit cards.</p>
+                                <button class="services_button mx-auto">Know More</button>
+                            </div>
+                        </div>
+                        <div class="card col-xxl-3 col-lg-3 col-md-6 col-12">
+                            <div class="services">
+                                <div class="icon">
+                                    <img src="./assest/img/covid-19.png" alt="cart" class="service_icon">
+                                </div>
+                                <h3 class="services_heading">Safe and Sanitized</h3>
+                                <p class="services_para">We care for your health and wellness. Thus, we keep everything clean and sanitized.</p>
+                                <button class="services_button mx-auto">Know More</button>
+                            </div>
+                        </div>
+                        <div class="card col-xxl-3 col-lg-3 col-md-6 col-12">
+                            <div class="services">
+                                <div class="icon">
+                                    <img src="./assest/img/credit-card.png" alt="cart" class="service_icon">
+                                </div>
+                                <h3 class="services_heading">Flexible Payments</h3>
+                                <p class="services_para">Travel today and pay in installments, or pay us using EMI. Click below to know more.</p>
+                                <button class="services_button mx-auto">Know More</button>
+                            </div>
+                        </div>
+                        <div class="card col-xxl-3 col-lg-3 col-md-6 col-12">
+                            <div class="services">
+                                <div class="icon">
+                                    <img src="./assest/img/map.png" alt="cart" class="service_icon">
+                                </div>
+                                <h3 class="services_heading">Explore the Nature</h3>
+                                <p class="services_para">Find top vacation and nature friendly places today. Explore the Nature with us.</p>
+                                <button class="services_button mx-auto">Know More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destination Section -->
+
+            <!-- <div class="destination_service mx-auto">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 heading">
+                            <span class="Section_heading">
+                                Choose From Our Topmost Destinations
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="card col-xxl-3 col-lg-3 col-md-6 col-12">
+                            <img class="card-img-top" src="./assest/img/stephen-leonardi - UWtb-3v6jQ-unsplash.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                              <h5 class="card-title services_heading">Paris</h5>
+                              <p class="card-text services_para">Explore the beauty of Paris.</p>
+                              <button class="services_button mx-auto">Explore Now</button>
+                            </div>
+                        </div>
+                        <div class="card col-xxl-3 col-lg-3 col-md-6 col-12">
+                            <img class="card-img-top" src="./assest/img/michael-starkie-_zEV4BMXLAE-unsplash.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                              <h5 class="card-title services_heading">Egypt</h5>
+                              <p class="card-text services_para">Explore the beauty of Egypt.</p>
+                              <button class="services_button mx-auto">Explore Now</button>
+                            </div>
+                        </div>
+                        <div class="card col-xxl-3 col-lg-3 col-md-6 col-12">
+                            <img class="card-img-top" src="./assest/img/shashidhar-s-05ujZtstwXQ-unsplash.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                              <h5 class="card-title services_heading">India</h5>
+                              <p class="card-text services_para">Explore the beauty of India.</p>
+                              <button class="services_button mx-auto">Explore Now</button>
+                            </div>
+                        </div>
+                        <div class="card col-xxl-3 col-lg-3 col-md-6 col-12">
+                            <img class="card-img-top" src="./assest/img/federico-di-dio-photography-Q4g0Q-eVVEg-unsplash.jpg" alt="Card image cap">
+                            <div class="card-body text-center">
+                              <h5 class="card-title services_heading">Italy</h5>
+                              <p class="card-text services_para">Explore the beauty of Italy.</p>
+                              <button class="services_button mx-auto">Explore Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
