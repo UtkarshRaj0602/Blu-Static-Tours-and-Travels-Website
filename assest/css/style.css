@@ -35,6 +35,7 @@ html,body{
     margin-right: 20px;
 }
 
+
 .login_btn {
     margin-right: 20px;
     padding: 10px 30px;
@@ -43,7 +44,7 @@ html,body{
     font-size: 17px;
     font-weight: 700;
     border: none;
-    background: #3383cf;
+
 }
 
 .login_btn:hover,
@@ -52,6 +53,7 @@ html,body{
     color: white;
     transform: translateY(-4px);
     transition: 0.25s;
+    text-decoration: none;
 }
 
 .nav-link {
